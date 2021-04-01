@@ -19,6 +19,12 @@ namespace TestGit
             Console.WriteLine(result);
         }
         public static string Name = "";
-        public string string Surname = "";
+        public string  Surname = "";
+        public static void X3()
+        {
+            int a = int.Parse(Console.ReadLine());
+            int result = a * a * a;
+            Console.WriteLine(result);
+        }
     }
 }
