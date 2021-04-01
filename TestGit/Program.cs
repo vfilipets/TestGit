@@ -18,5 +18,7 @@ namespace TestGit
             int result = a * a;
             Console.WriteLine(result);
         }
+        public static string Name = "";
+        public string string Surname = "";
     }
 }
